@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/styleRegister.css">
+    <script type="module" src="/static/js/appRegister.js"></script>
+</head>
+<body>
+    <h1> USER REGISTRATION </h1> 
+    <div> <img src="/static/images/register.png"/> </div>
+    <form action="/register_user" method="post">
+        <label> Name </label> <input id="name" name="name"> <br> <br>
+        <label> LastName </label> <input id="lastName" name="lastName"> <br> <br>
+        <label> Identification </label> <input id="id" name="id"> <br> <br>
+        <label> Age </label> <input id="age" name="age"> <br> <br>
+        <button id="btnSave" type="submit"> Save </button>
+    </form>
+</body>
+</html>

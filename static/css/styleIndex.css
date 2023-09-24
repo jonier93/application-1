@@ -1,0 +1,51 @@
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+label {
+    position: absolute;
+    left: 37%;
+    font-size: 20px;
+}
+
+input, textarea {
+    position: absolute;
+    left: 47%;
+    font-size: 20px;
+    width: 15%;
+}
+
+textarea {
+    height: 10%;
+}
+
+button {    
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 0.5%;
+}
+
+a {
+    position: absolute;
+    left: 51%;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+img {
+    height: 150px;
+}
